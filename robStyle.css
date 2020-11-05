@@ -1,3 +1,50 @@
+body{
+    background-color: rgb(186, 215, 216);
+}
+.main-wrapper {
+    height: 100vh;  
+  }
+.section {
+    height: 100vh;
+    background-color: rgb(245, 239, 237);  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.section2 {
+    background-color: rgb(232, 227, 236);
+    height: 100vh;
+    display: flex;
+    
+    
+
+}
+
+.section3 {
+    background-color: rgb(176, 154, 197);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-image: url('Cayman\ R.jpg');width: 50%; height: 50%;
+}
+.half {
+    background: #f9f9f9;
+    height: 50%;  
+    width: 100%;
+    margin: 15px 0;
+  }
+  .half2 {
+    background: #49a3cc;
+    height: 50%;  
+    width: 100%;
+    margin: 15px 0;
+  }
+
 .title-format{
     color: royalblue; 
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
@@ -7,9 +54,9 @@
     background-color: rgb(203, 181, 224); color: rgb(49, 41, 41); border-radius: 8px; width: 150px;
 }
 .main_text{
-    color: rgb(18, 18, 163); font-style: oblique; font-family: Arial, Helvetica, sans-serif; font-weight: 200; font-size: 0cm;
+    color: rgb(18, 18, 163); font-style: oblique; font-family: Arial, Helvetica, sans-serif; font-weight: 150; font-size: 0cm;
 }
-.text_align{
-    text-align: right; vertical-align: middle;
+h1{
+     color: rgb(157, 157, 197); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: medium;
 }
 
