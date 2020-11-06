@@ -11,7 +11,7 @@
 
     <style>
         body{
-            background-image: url('IMG_7930.jpeg');
+            background-image: url('smokies.png');
             background-size: cover;
         }
     </style>
@@ -25,19 +25,25 @@
            
                     <img src="6427734_preview.png" width="150px" >
     
-                    <button class="buttons" onclick="AboutMe.html">About Me </button> 
+                    <button class="buttons" onclick="document.location='AboutMe.html'"  >About Me </button> 
                     <br> <br> 
-                    <button class="buttons"> projects</button>
+                    <button class="buttons" onclick="document.location='Projects.html'"> projects</button>
                     <br> <br> 
-                    <button class="buttons" onclick="Index.html" > Home</button> 
+                    <button class="buttons" onclick="document.location='Index.html'" > Home</button> 
                     <br> <br> 
-                    <button class = "buttons" onclick="contact.html"> Contact Me</button>
-                    <br> <br>    
+                    <button class = "buttons" onclick="document.location='contact.html'"> Contact Me</button>
+                    <br> <br>      
                 </div>
                 
-                <div class= "col-md-3"> <center>Background Information</center></div>
-                <div class= "col-md-3"> <center>skills</center></div>
-                <div class= "col-md-3"> <center>Hobbies / Interests </center> </div>
+                <div class= "col-md-3 biohead"> <center>Background Information</center>
+                    <center><p class = "biomain"> <br> Husband <br> Father <br> Trader <br> ??Full Stack Developer??</p></center></div>
+
+                <div class= "col-md-3 biohead"> <center>Skills</center>
+                    <center><p class="biomain"> <br> Equities <br> Bonds <br> Derivatives <br> C# <br> Java <br> Python </div>
+
+                <div class= "col-md-3 biohead"> <center>Hobbies / Interests </center> 
+                    <center><p class="biomain"> <br> Mountain Biking <br> Downhill Skiing <br> Track Junkie</p></center></div>
+
 
             </div>
         </div>
